@@ -1,3 +1,7 @@
+nav{
+ 
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,11 +14,12 @@ ul {
   img{
     padding-top: 10px;
     width: 400px;
+    margin-bottom: 25px;
   }
 
   li {
+    padding-top: 20px;
     float: right;
-    
   }
   
   li a {
@@ -25,9 +30,36 @@ ul {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
   }
+
+  li a.offerte{
+    background-color: rgb(77, 169, 255);
+    color: white;
+    font-weight: 500;
+  }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     border-bottom: 3px solid rgb(77, 169, 255);
     color: rgb(77, 169, 255);
+  }
+
+  li a.offerte:hover{
+    background-color: rgb(144, 199, 250);
+    color: white;
+    font-weight: 500;
+  }
+
+  img.photo{
+    width: 100%;
+  }
+
+  h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 30pt;
+  }
+
+  p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
   }
