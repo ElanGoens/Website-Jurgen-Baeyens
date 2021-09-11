@@ -16,21 +16,24 @@
     margin-top: 0 !important;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-p{
+p {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 }
 
-a, .btn{
+a,
+.btn {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
 }
 
-.btn{
+.btn {
     padding: 12px 18px 12px 18px;
     background-color: var(--blue);
     border: 1ps solic var(--blue);
@@ -55,28 +58,28 @@ a, .btn{
     padding: 0 30px 0 30px;
 }
 
-.nav-link:hover{
-color: white !important;
+.nav-link:hover {
+    color: white !important;
 }
 
-a.nav-link.btn.btn-primary{
+a.nav-link.btn.btn-primary {
     background-color: var(--blue);
     color: white !important;
     padding: 12px 18px 12px 18px;
 }
 
-ul.dropdown-menu{
+ul.dropdown-menu {
     background-color: var(--dark-blue);
     border: none;
 }
 
-a.dropdown-item{
+a.dropdown-item {
     color: white !important;
     font-family: 'Work Sans', sans-serif;
     padding: 10px 20px;
 }
 
-a.dropdown-item:hover{
+a.dropdown-item:hover {
     background-color: var(--blue);
 }
 
@@ -95,7 +98,9 @@ img.photo {
     object-fit: cover;
 }
 
-
+.tekstblok{
+    margin: 0 40px 0 40px;
+}
 
 .offerte {
     background-color: var(--light-blue);
@@ -105,12 +110,66 @@ img.photo {
     background-color: var(--light-blue);
 }
 
+.btn-primary:hover{
+    background-color: var(--dark-blue)
+}
+
+/* OVER ONS PAGINA */
+.page-slider{
+    background-image: url(/images/background_sm.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    padding: 70px;
+}
+
+.page-slider h2{
+    font-size: 50px;
+    color: var(--dark-blue);
+}
 
 
 
+.diensten-btn{
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--dark-blue);
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+.diensten-btn:hover{
+    color: var(--blue);
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--dark-blue);
+    color: white;
+}
 
 
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .navbar {
+        background-color: var(--dark-blue) !important;
+        padding-left: 0px;
+    }
+
+    .nav-info {
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 10px;
+        background-color: var(--dark-blue) !important;
+        color: white;
+    }
+
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -121,51 +180,3 @@ img.photo {
         text-align: center;
     }
 }
-
-
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-  
- }
-
-/* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-
- }
-
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-    .navbar {
-        background-color: var(--dark-blue) !important;
-        padding-left: 0px;
-    }
-    
-    .nav-info {
-        text-align: right;
-        padding-right: 30px;
-        padding-top: 10px;
-        background-color: var(--dark-blue) !important;
-        color: white;
- }
-
-/* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { }
-
-/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { }
-
-
-
-
-/* .navbar {
-    background-color: var(--dark-blue) !important;
-    padding-left: 300px;
-}
-
-.nav-info {
-    text-align: right;
-    padding-right: 430px;
-    padding-top: 10px;
-    background-color: var(--dark-blue) !important;
-    color: white;
-} */
