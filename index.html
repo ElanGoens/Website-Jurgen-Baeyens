@@ -1,121 +1,196 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website title -->
   <title>Jurgen Baeyens</title>
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/grid.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-
   <header>
 
-    <!--navigation-->
-    <nav>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <ul>
-              <li><img src="/images/logo-donkere-achtergrond-01.png" alt="Jurgen Baeyens"></li>
-              <li><a href="#">home</a></li>
-              <li><a href="#">over ons</a></li>
-              <li><a href="#">diensten</a></li>
-              <li><a href="#">realisaties</a></li>
-              <li><a href="#">contact</a></li>
-              <li><a class="offerte" href="#">Vraag offerte</a></li>
-            </ul>
-
-          </div>
+    <div class="nav-info">
+      <span>055 00 00 00 - info@naamvandezaak.be</span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img class="logo" src="/images/logo-donkere-achtergrond-01.png"
+            alt="Jurgen Baeyens"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Over ons</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Diensten
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Binnen</a></li>
+                <li><a class="dropdown-item" href="#">Buiten</a></li>
+                <li><a class="dropdown-item" href="#">Decoratie</a></li>
+                <li><a class="dropdown-item" href="#">Vloeren</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Realisaties</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-primary" href="#">Vraag offerte</a></li>
         </div>
+      </div>
     </nav>
 
-    <!--slider-->
-    <div class="home-slider">
-      <h1>Schilder- en decoratiewerken
-        interieurafwerking</h1>
-    </div>
 
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/background.jpg" alt="First slide">
+        </div>
+      </div>
+    </div>
   </header>
-
-
   <main>
-    <!--content-->
+
     <div class="container">
-      <div class="row textandimage">
-        <div class="col-6">
-          <img class="photo" src="/images/anshu-a-08tZCw1ePhg-unsplash.jpg" alt="">
+
+      <div class="row g-5">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <img class="photo" src="/images/pexels-pixabay-159045.jpg" alt="">
+          </div>
+
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <h1>Gratis professioneel kleuradvies</h1>
+            <br>
+            <p>De kleur- en techniekkeuze zijn zaken die we niet uit het oog mogen verliezen om uw interieur te laten
+              stralen.
+              Geraakt u er zelf niet uit? Jurgen helpt u graag verder met professioneel advies.
+              Samen zoeken we naar wat het beste past voor u en uw woning.</p>
+            <br>
+            <a class="btn btn-primary" href="#" role="button">Contacteer ons voor gratis advies</a>
+          </div>
 
-        <div class="col-5">
-          <h2>Gratis professioneel kleuradvies</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui et mauris viverra dignissim eu et
-            quam. Integer in purus eget nisi blandit congue.
-            Proin consectetur iaculis mauris, sit amet mattis nisl porta vel. Curabitur facilisis facilisis massa, in
-            interdum augue. Quisque finibus gravida urna, in ornare nulla sagittis eget.</p>
-        </div>
-      </div>
-
-
-
-      <div class="row textandimage">
-        <div class="col-5">
-          <h1>Wij staan voor je klaar</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui et mauris viverra dignissim eu et
-            quam. Integer in purus eget nisi blandit congue.
-            Proin consectetur iaculis mauris, sit amet mattis nisl porta vel. Curabitur facilisis facilisis massa, in
-            interdum augue. Quisque finibus gravida urna, in ornare nulla sagittis eget.</p>
-        </div>
-        <div class="col-1"></div>
-        <div class="col-6">
-          <img class="photo" src="/images/roselyn-tirado-GDWmu0bFfS4-unsplash.jpg" alt="">
         </div>
       </div>
 
+      <div class="row g-5">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <h1>Wij staan voor u klaar</h1>
+            <br>
+            <p>Wilt u graag een nieuw likje verf dat past bij uw interieur?
+              U kan bij ons terecht voor zowel binnen- als buitenschilderwerken.
+              Jurgen schildert uw trap, plafonds, deuren, muren enz.
+              Wij lichten graag alle mogelijkheden voor u toe en kijken samen wat u nodig hebt.
+              U kunt bij ons ook decoratiewerken aanvragen zoals lamellen of rolgordijnen.
+              Nieuwe vloer nodig? Wij brengen u een hoogstaand totaalpakket met oog voor detail.</p>
+            <br>
+            <a class="btn btn-primary" href="#" role="button">Over ons</a>
+          </div>
 
-
-      <div class="row textandimage">
-        <div class="col-6">
-          <img class="photo" src="/images/yoann-siloine-LiDVw7tZPfY-unsplash.jpg" alt="">
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <img class="photo" src="/images/pexels-stephanie-ho-994164.jpg" alt="">
+          </div>
 
-        <div class="col-5">
-          <h2>Offerte op maat</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dui et mauris viverra dignissim eu et
-            quam. Integer in purus eget nisi blandit congue.
-            Proin consectetur iaculis mauris, sit amet mattis nisl porta vel. Curabitur facilisis facilisis massa, in
-            interdum augue. Quisque finibus gravida urna, in ornare nulla sagittis eget.</p>
         </div>
       </div>
 
+      <div class="row g-5 ">
+        <div class="col-sm-12 col-md-12 col-lg-6 offerte">
+          <div class="p-5">
+            <img class="photo" src="/images/yoann-siloine-LiDVw7tZPfY-unsplash.jpg" alt="">
+          </div>
 
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 offerte">
+          <div class="p-5">
+            <h1>Offerte op maat</h1>
+            <br>
+            <p>Elk project is uniek omdat wij altijd rekening houden met uw specifieke wensen en noden.
+              Wij bieden je een volledig vrijblijvende en gedetailleerde offerte aan om uw project tot een goed einde te
+              brengen.</p>
+            <br>
+            <a class="btn btn-primary" href="#" role="button">Vraag offerte aan</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="row g-5">
+        <div class="col-12">
+          <h2>Onze diensten</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5 alert-primary">Binnen</div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5 alert-primary">Buiten</div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5 alert-primary">Decoratie</div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5 alert-primary">Vloeren</div>
+        </div>
+      </div>
 
+      <div class="row g-5">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <img class="photo" src="/images/yoann-siloine-LiDVw7tZPfY-unsplash.jpg" alt="">
+          </div>
 
-
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <div class="p-5">
+            <h1>Deze mensen gingen u reeds voor</h1>
+            <br>
+            <p>De woningen die we schilderen zijn stuk voor stuk uniek. We zorgen voor een kwalitatieve en duurzame
+              oplevering.
+              Of het nu gaat om een klassieke woning of moderne ontwerpen, Jurgen zorgt ervoor dat deze investering in
+              uw leven meteen de beste wordt.
+              Op zoek naar inspiratie voor uw interieur of gevel? Bekijk wat we bij onze vorige klanten reeds
+              realiseerden.</p>
+            <br>
+            <a class="btn btn-primary" href="#" role="button">Onze realisaties</a>
+          </div>
+        </div>
+      </div>
 
     </div>
-
   </main>
-
-
   <footer>
-    <!--contact-->
-    <div class="container">
-      <div class="row">
 
-
-      </div>
-    </div>
   </footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+
 </body>
 
 </html>

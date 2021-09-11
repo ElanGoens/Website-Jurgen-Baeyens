@@ -1,0 +1,171 @@
+/* algemene styling */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --light-blue: #E8F0F6;
+    --blue: #149BDB;
+    --dark-blue: #003047;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-top: 0 !important;
+}
+
+h1, h2, h3{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+a, .btn{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 12px 18px 12px 18px;
+    background-color: var(--blue);
+    border: 1ps solic var(--blue);
+    border-radius: 0;
+}
+
+/* navigatie styling */
+.navbar {
+    background-color: var(--dark-blue) !important;
+    padding-left: 300px;
+}
+
+.nav-info {
+    text-align: right;
+    padding-right: 430px;
+    padding-top: 10px;
+    background-color: var(--dark-blue) !important;
+    color: white;
+}
+
+.nav-item {
+    padding: 0 30px 0 30px;
+}
+
+.nav-link:hover{
+color: white !important;
+}
+
+a.nav-link.btn.btn-primary{
+    background-color: var(--blue);
+    color: white !important;
+    padding: 12px 18px 12px 18px;
+}
+
+ul.dropdown-menu{
+    background-color: var(--dark-blue);
+    border: none;
+}
+
+a.dropdown-item{
+    color: white !important;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 20px;
+}
+
+a.dropdown-item:hover{
+    background-color: var(--blue);
+}
+
+/* image styling */
+img {
+    width: 600px;
+}
+
+img.logo {
+    width: 300px;
+}
+
+img.photo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+.offerte {
+    background-color: var(--light-blue);
+}
+
+.alert-primary {
+    background-color: var(--light-blue);
+}
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar {
+        background-color: var(--dark-blue) !important;
+        padding-left: 0px;
+    }
+    
+    .nav-info {
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 10px;
+        background-color: var(--dark-blue) !important;
+        color: white;
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+
+
+
+
+/* .navbar {
+    background-color: var(--dark-blue) !important;
+    padding-left: 300px;
+}
+
+.nav-info {
+    text-align: right;
+    padding-right: 430px;
+    padding-top: 10px;
+    background-color: var(--dark-blue) !important;
+    color: white;
+} */
