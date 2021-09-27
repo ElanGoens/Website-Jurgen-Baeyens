@@ -117,6 +117,7 @@ img.photo {
 /* OVER ONS PAGINA */
 .page-slider{
     background-image: url(/images/background_sm.jpg);
+    background-image: url(../images/background_sm.jpg);
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     height: 200px;
