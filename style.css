@@ -151,7 +151,7 @@ footer{
 
 .footer-img{
     width: 400px;
-    align-items: right;
+    float: right;
 }
 
 
