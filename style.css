@@ -116,8 +116,7 @@ img.photo {
 
 /* OVER ONS PAGINA */
 .page-slider{
-    background-image: url(/images/background_sm.jpg);
-    background-image: url(../images/background_sm.jpg);
+    background-image: url(/images/banner.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     height: 200px;
@@ -127,10 +126,12 @@ img.photo {
 
 .page-slider h2{
     font-size: 50px;
-    color: var(--dark-blue);
+    color: white;
 }
 
-
+.mb {
+  margin-bottom: 6rem;
+}
 
 .diensten-btn{
     font-family: 'Bebas Neue', sans-serif;
