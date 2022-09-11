@@ -27,10 +27,21 @@ p {
     font-weight: 400;
 }
 
-a,
 .btn {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+}
+
+a {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--blue);
+  font-weight: 500;
 }
 
 .btn {
